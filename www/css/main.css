@@ -24,12 +24,36 @@ nav > .container-fluid .navbar-header {
     margin-left: 0px;
 }
 
-.container-fluid>.navbar-collapse, 
-.container-fluid>.navbar-header, 
-.container>.navbar-collapse, 
-.container>.navbar-header {
+nav .container-fluid>.navbar-collapse, 
+nav .container-fluid>.navbar-header, 
+nav .container>.navbar-collapse, 
+nav .container>.navbar-header {
     margin-right: 0px;
     margin-left: 0px;
+}
+
+nav .navbar-header .navbar-brand {
+    padding: 0px;
+    height: 100%;
+}
+
+nav .navbar-header .navbar-toggle {
+    margin: 0px;
+    border-radius: 0px;
+    padding: 0px;
+    border: 0px;
+    background-color: orange;
+}
+
+nav .navbar-header .navbar-toggle .icon-bar {
+    border-radius: 0px;
+    background-color: red;
+    width: 42px;
+    height: 5px;
+}
+
+nav .navbar-header .navbar-toggle .icon-bar+.icon-bar {
+    margin-top: 7px;
 }
 
 
