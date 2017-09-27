@@ -1,3 +1,128 @@
-body {
+
+nav.navbar {
+    margin-bottom: 0px;
+    border-radius: 0px;
+    min-height: initial;
+}
+
+nav.navbar-default {
+    border: 0px;
     background-color: yellow;
+}
+
+nav > .container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+nav > .container-fluid .navbar-header {
+    border: 1px solid red;
+}
+
+
+/*
+    Developement References:
+    BOOTSTRAP 3:
+    col-xs :    Tiny Devices   : below 768px    ( Mobile menu appearse )  
+                Yellow, Orange
+                horizontal alignment in Red, Blue, Green, Orange, Yellow. 
+                no vertically stacking.
+    col-sm :    Small Devices  : equal & above 768px      
+                Green
+                horizontal alignment in Red, Blue, Green. 
+                below 768px they stack vertically
+    col-md :    Medium Devices : equal & above 992px      
+                Blue
+                horizontal alignment in Red, Blue. 
+                below 992px they stack vertically
+    col-lg :    Large Devices  : equal & above 1200px     
+                Red
+                horizontal alignment in Red. 
+                below 1200px they stack vertically
+	MEASUREMENTS:
+	10px = 0.625em
+	11px = 0.6875em
+	12px = 0.75em
+	13px = 0.8125em
+	14px = 0.875em
+	15px = 0.9375em
+	16px = 1em
+	17px = 1.0625em
+	18px = 1.125em
+	19px = 1.1875em
+	20px = 1.25em
+	21px = 1.3125em
+	22px = 1.375em
+	23px = 1.4375em
+	24px = 1.5em
+	25px = 1.563em
+	26px = 1.625em
+	27px = 1.688em
+	28px = 1.750em
+	29px = 1.813em
+	30px = 1.875em
+	31px = 1.938em
+	32px = 2em
+	33px = 2.0625em
+	34px = 2.125em
+	35px = 2.1875em
+	36px = 2.25em
+	37px = 2.3125em
+	38px = 2.375em
+	39px = 2.4375em
+	40px = 2.5em
+	CSS Page Structure:
+	
+	All CSS pages should have the same breakdown, 
+	making it easy to change css rules from one breakpoint to the other.
+	============================================================
+	General Rules 
+	Overwrites
+	============================================================
+	Header 
+	Overwrites
+	Navigation
+	Navigation Overwrites
+	============================================================
+	Content
+	Overwrites
+	============================================================
+	Footer
+	Overwrites
+*/
+
+.red {
+    border: 1px solid red;
+}
+
+.blue {
+    border: 1px solid blue;
+}
+
+.yellow {
+    border: 1px solid yellow;
+}
+
+.orange {
+    border: 1px solid orange;
+}
+
+.green {
+    border: 1px solid green;
+}
+
+.purple {
+    border: 1px solid purple;
+}
+
+.black {
+    border: 1px solid black;
+}
+
+.white {
+    border: 1px solid white;
+}
+
+.gray {
+    border: 1px solid gray;
 }
