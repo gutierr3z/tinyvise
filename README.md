@@ -10,7 +10,8 @@ create README.md
 git add . 
 git commit -m 'initial commit'
 
-// push the current branch and set the remote as upstream git push -u origin master
+// push the current branch and set the remote as upstream 
+git push -u origin master
 
 create .gitigmore
 
