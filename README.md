@@ -42,14 +42,16 @@ WEBPACK:
 
 npm install --save webpack babel-loader
 
-create src/app.js create webpack.config.js
+create src/app.js 
+create webpack.config.js
 
 //-------------------------------------------------- 
 EXPRESS:
 
 npm install --save express webpack-dev-middleware
 
-create server.js create www/index.html
+create server.js 
+create www/index.html
 
 //-------------------------------------------------- 
 REACT:
