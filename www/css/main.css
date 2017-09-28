@@ -1,60 +1,10 @@
+@import url( 'bootstrap_overwrites.css' ); 
+@import url( 'yellow.css' )( min-width: 0px );      /* Tiny Devices */
+@import url( 'orange.css' )( min-width: 568px );    /* Tiny Devices */ 
+@import url( 'green.css' )( min-width: 768px );     /* Small Devices */
+@import url( 'blue.css' )( min-width: 992px );      /* Medium Devices */
+@import url( 'red.css' )( min-width: 1200px );      /* Large Devices */
 
-nav.navbar {
-    margin-bottom: 0px;
-    border-radius: 0px;
-    min-height: initial;
-}
-
-nav.navbar-default {
-    border: 0px;
-    background-color: yellow;
-}
-
-nav > .container-fluid {
-    padding-right: 0px;
-    padding-left: 0px;
-}
-
-nav > .container-fluid .navbar-header {
-    border: 1px solid red;
-}
-
-.navbar>.container .navbar-brand, 
-.navbar>.container-fluid .navbar-brand {
-    margin-left: 0px;
-}
-
-nav .container-fluid>.navbar-collapse, 
-nav .container-fluid>.navbar-header, 
-nav .container>.navbar-collapse, 
-nav .container>.navbar-header {
-    margin-right: 0px;
-    margin-left: 0px;
-}
-
-nav .navbar-header .navbar-brand {
-    padding: 0px;
-    height: 100%;
-}
-
-nav .navbar-header .navbar-toggle {
-    margin: 0px;
-    border-radius: 0px;
-    padding: 0px;
-    border: 0px;
-    background-color: orange;
-}
-
-nav .navbar-header .navbar-toggle .icon-bar {
-    border-radius: 0px;
-    background-color: red;
-    width: 42px;
-    height: 5px;
-}
-
-nav .navbar-header .navbar-toggle .icon-bar+.icon-bar {
-    margin-top: 7px;
-}
 
 
 /*
@@ -76,7 +26,9 @@ nav .navbar-header .navbar-toggle .icon-bar+.icon-bar {
                 Red
                 horizontal alignment in Red. 
                 below 1200px they stack vertically
-	MEASUREMENTS:
+
+    MEASUREMENTS:
+    
 	10px = 0.625em
 	11px = 0.6875em
 	12px = 0.75em
@@ -107,7 +59,8 @@ nav .navbar-header .navbar-toggle .icon-bar+.icon-bar {
 	37px = 2.3125em
 	38px = 2.375em
 	39px = 2.4375em
-	40px = 2.5em
+    40px = 2.5em
+    
 	CSS Page Structure:
 	
 	All CSS pages should have the same breakdown, 

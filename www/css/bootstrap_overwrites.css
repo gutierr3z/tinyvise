@@ -1,0 +1,79 @@
+/* 
+START : STRIPPING BOOTSTRAP NAV
+*/
+nav.navbar {
+    margin-bottom: 0px;
+    border-radius: 0px;
+    min-height: initial;
+}
+
+nav.navbar-default {
+    border: 0px;
+    background-color: yellow;
+}
+
+nav > .container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+nav > .container-fluid .navbar-header {
+    border: 1px solid red;
+}
+
+.navbar>.container .navbar-brand, 
+.navbar>.container-fluid .navbar-brand {
+    margin-left: 0px;
+}
+
+nav .container-fluid>.navbar-collapse, 
+nav .container-fluid>.navbar-header, 
+nav .container>.navbar-collapse, 
+nav .container>.navbar-header {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+nav .navbar-header .navbar-brand {
+    padding: 0px;
+    height: 100%;
+}
+
+/* start : burger */
+nav .navbar-header .navbar-toggle {
+    margin: 0px;
+    border-radius: 0px;
+    padding: 0px;
+    border: 0px;
+    background-color: orange;
+}
+
+nav .navbar-header .navbar-toggle .icon-bar {
+    border-radius: 0px;
+    background-color: red;
+    width: 42px;
+    height: 5px;
+}
+
+.navbar-default .navbar-toggle:focus, 
+.navbar-default .navbar-toggle:hover {
+    background-color: green;
+}
+
+nav .navbar-header .navbar-toggle .icon-bar+.icon-bar {
+    margin-top: 7px;
+}
+/* end : burger */
+
+.navbar-nav>li>a {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.nav>li>a {
+    padding: 0px;
+}
+
+/* 
+END : STRIPPING BOOTSTRAP NAV
+*/
