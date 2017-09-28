@@ -1,0 +1,22 @@
+
+nav .navbar-header .navbar-brand {
+    height: 8vmin;
+    background-position: 20px 2.4vmin;
+}
+
+/* start : burger */
+nav .navbar-header .navbar-toggle {
+    height: 8vmin;
+    width: 8vmin;
+}
+
+nav .navbar-header .navbar-toggle .icon-bar {
+    background-color: #ea0000;
+    width: 3vmin;
+    height: .5vmin;
+}
+
+nav .navbar-header .navbar-toggle .icon-bar+.icon-bar {
+    margin-top: .4vmin;
+}
+/* end : burger */
