@@ -16,9 +16,9 @@ nav .navbar-header .navbar-brand {
     width: 150px;
 
     background: url( '../images/logo.svg' );
-    background-size: 55%;
+    background-size: 70%;
     background-repeat: no-repeat;
-    background-position: 20px 2.4vmax;
+    background-position: 20px 2.2vmax;
 }
 
 nav > .container-fluid .navbar-header {
