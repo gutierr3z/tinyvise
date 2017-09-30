@@ -26,7 +26,7 @@ END : LAYOUT STRUCTURE
 START : LAYOUT FONTS
 */
 
-html {
+body {
     font-size: calc( 14px + .2vim );
 }
 
@@ -164,7 +164,7 @@ main {
     background-size: cover;
 }
 
-.oo-transparent-bg {
+main section.oo-transparent-bg {
     background: transparent;
-    height: 10vmax;
+    min-height: 10vmax;
 }
