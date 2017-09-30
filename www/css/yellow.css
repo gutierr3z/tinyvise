@@ -1,80 +1,3 @@
-/* 
-START : LAYOUT STRUCTURE
-*/
-
-html {
-    height: 100%;
-}
-
-/* start: footer */
-body {
-    display: flex;
-    min-height: 100%;
-    flex-direction: column;
-}
-
-main {
-    flex: 1;
-}
-/* end : footer */
-
-/* 
-END : LAYOUT STRUCTURE
-*/
-
-/* 
-START : LAYOUT FONTS
-*/
-
-body {
-    font-size: calc( 14px + .2vim );
-
-    background-color: purple;
-}
-
-/* 
-END : LAYOUT FONTS
-*/
-
-main,
-footer {
-    padding-top: 5vmax;
-    padding-bottom: 5vmax;
-}
-
-header > section,
-main > section,
-footer > section {
-    padding-left: 2vmax;
-    padding-right: 2vmax;
-}
-
-main > section,
-footer > section {
-    padding-top: 0px;
-    padding-bottom: 0px;
-}
-
-header > section > section,
-main > section > section,
-footer > section > section {
-    margin: 0px auto;
-    /* ---------- */
-    max-width: 1000px;
-    min-width: 300px;
-    /* ---------- */
-    border: 1px solid red;
-}
-
-main > section > section,
-footer > section > section {
-    padding-top: 1vmax;
-    padding-bottom: 1vmax;
-}
-
-
-
-
 nav.navbar-default {
     background-color: #fff;
 }
@@ -116,8 +39,6 @@ nav .navbar-default .navbar-toggle:hover {
     background-color: #fff;
 }
 /* end : burger */
-
-
 
 
 
