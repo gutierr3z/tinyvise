@@ -1,3 +1,5 @@
+
+
 nav.navbar-default {
     background-color: #fff;
 }
@@ -49,13 +51,18 @@ nav .navbar-default .navbar-toggle:hover {
 
 /* ------------------------------------------- */
 
+header {
+    background-color: #fff;;
+}
 
 main {
-    background-color: #ff9900;
+    /* background-color: #ff9900; */
+    background-color: linear-gradient( to bottom, #f5f5f5 0, #e8e8e5 100% );
 }
 
 main > section {
-    background-color: #ffcc00;
+    /* background-color: #ffcc00; */
+    background-image: linear-gradient( to bottom, #f5f5f5 0, #e8e8e5 100% );
 }
 
 footer {
@@ -73,7 +80,7 @@ footer > section {
 
 
 body {
-    /* background-image: linear-gradient( to bottom, #f5f5f5 0, #e8e8e5 100% ); */
+    background-image: linear-gradient( to bottom, #f5f5f5 0, #e8e8e5 100% );
 }
 
 main {

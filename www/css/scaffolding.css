@@ -28,8 +28,6 @@ START : LAYOUT FONTS
 
 body {
     font-size: calc( 14px + .2vim );
-
-    background-color: purple;
 }
 
 /* 
