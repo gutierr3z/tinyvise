@@ -84,7 +84,7 @@ main {
     background-size: cover;
 }
 
-main section.oo-transparent-bg {
+main > section.oo-transparent-bg {
     background: transparent;
     min-height: 10vmax;
 }

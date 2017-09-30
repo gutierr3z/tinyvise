@@ -9,14 +9,13 @@
 nav .navbar-header .navbar-toggle {
     height: 8vmin;
 }
-
-
 /* end : burger */
 
-/* section {
-    height: 30vmin;
-    padding-top: 2vmin;
-    font-size: calc( 0.875em + .2vmin );
-} */
 
 
+
+
+main > section.oo-transparent-bg {
+    min-height: 10vmin;
+    border: 3px solid red;
+}
