@@ -159,4 +159,12 @@ body {
 main {
     padding-top: 0px;
     padding-bottom: 0px;
+
+    background: #fff url( ../images/cover_pic_4.jpg ) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.oo-transparent-bg {
+    background: transparent;
+    height: 10vmax;
 }
