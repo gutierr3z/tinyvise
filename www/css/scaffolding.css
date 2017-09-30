@@ -62,8 +62,6 @@ footer > section > section {
     /* ---------- */
     max-width: 1000px;
     min-width: 300px;
-    /* ---------- */
-    border: 1px solid red;
 }
 
 main > section > section,
