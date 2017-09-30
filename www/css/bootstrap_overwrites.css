@@ -36,19 +36,13 @@ nav .container>.navbar-header {
     padding: 0px;
     height: 100%;
     width: 150px;
-    /* height: 75px; */
 
     background: url( '../images/logo.svg' );
     background-size: 70%;
     background-repeat: no-repeat;
     background-position: 0px center;
 }
-
-nav .navbar-header .navbar-brand {
-    /* padding: 0px;
-    height: 100%; */
-}
-/* start : logo */
+/* end : logo */
 
 /* start : burger */
 nav .navbar-header .navbar-toggle {
