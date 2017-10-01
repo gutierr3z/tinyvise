@@ -47,14 +47,8 @@ footer {
 main > section,
 footer > section {
     /* structure */
-    padding-left: 4vmax;
-    padding-right: 4vmax;
-}
-
-.navbar>.container .navbar-brand, 
-.navbar>.container-fluid .navbar-brand {
-    /* appearance */
-    background-position: 4vmax 55%;
+    /* padding-left: 4vmax; */
+    /* padding-right: 4vmax; */
 }
 
 main > section,
@@ -69,7 +63,7 @@ main > section > section,
 footer > section > section {
     /* structure */
     margin: 0px auto;
-    max-width: 1000px;
+    max-width: 992px; /* 992 breakpoint blue */
     min-width: 250px;
 }
 
@@ -78,6 +72,13 @@ footer > section > section {
     /* structure */
     padding-top: 1vmax;
     padding-bottom: 1vmax;
+    padding-left: 3vmax;
+    padding-right: 3vmax;
+}
+
+.navbar>.container .navbar-brand, 
+.navbar>.container-fluid .navbar-brand {
+    background-position: 3vmax 55%;
 }
 
 /* ----------------------------------------------- */

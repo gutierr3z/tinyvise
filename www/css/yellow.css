@@ -24,7 +24,6 @@ nav.navbar-default {
 .navbar>.container .navbar-brand, 
 .navbar>.container-fluid .navbar-brand {
     /* structure */
-    /* padding-left: 4vmax; */
     height: 8vmax;
     min-height: 5vmin;
     width: 150px;
@@ -32,7 +31,7 @@ nav.navbar-default {
     background: url( '../images/logo.svg' );
     background-size: 60%;
     background-repeat: no-repeat;
-    background-position: 4vmax 55%;
+    background-position: 3vmax 55%;
 }
 /* end : logo */
 

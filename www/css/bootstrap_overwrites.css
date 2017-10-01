@@ -27,7 +27,7 @@ nav .container>.navbar-collapse,
 nav .container>.navbar-header {
     margin-right: 0px;
     margin-left: 0px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     left: 0px;
 }
 
@@ -83,6 +83,10 @@ nav .navbar-header .navbar-toggle .icon-bar+.icon-bar {
     margin-top: 7px;
 }
 /* end : burger */
+
+.navbar-nav {
+    margin: 0px;
+}
 
 .navbar-nav>li>a {
     padding-top: 0px;
