@@ -4,6 +4,7 @@ BRANDING
 */
 
 h1, h2, h3, h4, h5 {
+    /* fonts */
     font-family: 'Varela', sans-serif;
     letter-spacing: -.089rem;
     color: #000;
