@@ -3,27 +3,30 @@ START : LAYOUT STRUCTURE
 */
 
 html {
+    /* structure */
     height: 100%;
+    /* fonts  */
     font-size: 16px;
 }
 
 body {
+    /* fonts */
     line-height: 1.625rem;
-
     -webkit-font-smoothing: antialiased;
     font-family: 'Open Sans', sans-serif;
-
     color: #4c473c;
 }
 
 /* start: footer */
 body {
+    /* structure */
     display: flex;
     min-height: 100%;
     flex-direction: column;
 }
 
 main {
+    /* structure */
     flex: 1;
 }
 /* end : footer */
@@ -32,17 +35,11 @@ main {
 END : LAYOUT STRUCTURE
 */
 
-/* 
-START : LAYOUT FONTS
-*/
 
-
-/* 
-END : LAYOUT FONTS
-*/
 
 main,
 footer {
+    /* structure */
     padding-top: 5vmax;
     padding-bottom: 5vmax;
 }
@@ -50,14 +47,14 @@ footer {
 header > section,
 main > section,
 footer > section {
+    /* structure */
     padding-left: 2vmax;
     padding-right: 2vmax;
-    /* ---------- */
-    /* line-height: 1.750em; */
 }
 
 main > section,
 footer > section {
+    /* structure */
     padding-top: 0px;
     padding-bottom: 0px;
 }
@@ -65,14 +62,15 @@ footer > section {
 header > section > section,
 main > section > section,
 footer > section > section {
+    /* structure */
     margin: 0px auto;
-    /* ---------- */
     max-width: 1000px;
     min-width: 300px;
 }
 
 main > section > section,
 footer > section > section {
+    /* structure */
     padding-top: 1vmax;
     padding-bottom: 1vmax;
 }

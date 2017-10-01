@@ -2,21 +2,21 @@
 /* 
 BRANDING
 */
-body {
-    /* color: #635e52; */
-}
+
 /* ------------------------------------------- */
 nav.navbar-default {
+    /* appearance */
     background-color: #fff;
 }
 
 /* start : logo */
 .navbar>.container .navbar-brand, 
 .navbar>.container-fluid .navbar-brand {
+    /* structure */
     height: 8vmax;
     min-height: 5vmin;
     width: 150px;
-
+    /* appearance */
     background: url( '../images/logo.svg' );
     background-size: 60%;
     background-repeat: no-repeat;
@@ -25,57 +25,68 @@ nav.navbar-default {
 /* end : logo */
 
 nav > .container-fluid .navbar-header {
+    /* structure */
     border: 0px;
 }
 
 /* start : burger */
 nav .navbar-header .navbar-toggle {
-    background-color: #fff;
+    /* structure */
     height: 8vmax;
     width: 30px;
-    text-align: center;
+    /* appearance */
+    background-color: #fff;
 }
 
 nav .navbar-header .navbar-toggle .icon-bar {
-    background-color: #d6d6d6;
+    /* structure */
     width: 25px;
     height: 3px;
+    /* appearance */
+    background-color: #d6d6d6;
 }
 
 .navbar-default .navbar-toggle:focus, 
 .navbar-default .navbar-toggle:hover {
+    /* appearance */
     background-color: #fff;
 }
 
 nav .navbar-header .navbar-toggle .icon-bar+.icon-bar {
+    /* structure */
     margin-top: 4px;
 }
 
 nav .navbar-default .navbar-toggle:focus, 
 nav .navbar-default .navbar-toggle:hover {
+    /* appearance */
     background-color: #fff;
 }
 /* end : burger */
 /* ------------------------------------------- */
 
 header {
+    /* appearance */
     background-color: #fff;;
 }
 
 main {
+    /* appearance */
     background-color: #fff;
 }
 
 main > section {
-    /* background-color: #ffcc00; */
+    /* appearance */
     background-image: linear-gradient( to bottom, #f5f5f5 0, #e8e8e5 100% );
 }
 
 footer {
+    /* appearance */
     background-color: #666666;
 }
 
 footer > section {
+    /* appearance */
     background-color: #999999;
 }
 
@@ -86,18 +97,22 @@ footer > section {
 
 
 body {
+    /* appearance */
     background-image: linear-gradient( to bottom, #f5f5f5 0, #e8e8e5 100% );
 }
 
 main {
+    /* structure */
     padding-top: 0px;
     padding-bottom: 0px;
-
+    /* appearance */
     background: #fff url( ../images/cover_pic_4.jpg ) no-repeat center center fixed;
     background-size: cover;
 }
 
 main > section.oo-transparent-bg {
-    background: transparent;
+    /* structure */
     min-height: 10vmax;
+    /* appearance */
+    background: transparent;
 }

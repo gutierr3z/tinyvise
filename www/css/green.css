@@ -1,14 +1,17 @@
 
 .navbar>.container .navbar-brand, 
 .navbar>.container-fluid .navbar-brand {
+    /* structure */
     height: 8vmin;
     min-height: 5vmax;
     max-height: 8vmin;
+    /* appearance */
     background-size: 70%;
 }
 
 /* start : burger */
 nav .navbar-header .navbar-toggle {
+    /* structure */
     height: 8vmin;
 }
 /* end : burger */
@@ -18,5 +21,6 @@ nav .navbar-header .navbar-toggle {
 
 
 main > section.oo-transparent-bg {
+    /* structure */
     min-height: 10vmin;
 }
