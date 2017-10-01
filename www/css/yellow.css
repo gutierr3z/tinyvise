@@ -1,12 +1,57 @@
 
-/* ------------------------------------------- */
+.oo-jumbo {
+    /* height: 40vmax; */
+    /* background: url( ../images/cover_pic.png ); */
+    background-color: #b4c639;
+    background-repeat: repeat;
+    background-position: 0px center;
+    background-size: 80vmax;
+    text-align: center;
+}
 
+.oo-jumbo article {
+    /* width: 70%; */
+    margin: 0px auto;
+}
 
+.oo-jumbo article h1 {
+    font-weight: bold;
+    font-size: calc( 1.7rem + .5vmax );
+    letter-spacing: -.03rem;
+    color: #fff;
+    margin: 20px 0px;
+}
 
+.oo-gallery section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
+.oo-gallery section > div {
+    border: 1px solid #e6e6e6;
+    flex: 0 1 32.5%;
+    height: 15vmax;
+    align-items: stretch;
+}
 
+.oo-gallery section > div.oo-proj-camphop {
+    background: url( ../images/logo_camphop.svg );
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 80%;
+}
 
+.oo-gallery section > div.oo-proj-catsiren {
+    background: url( ../images/logo_catsiren.svg );
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 80%;
+}
 
-
-
-
+.oo-gallery section > div.oo-proj-spacecarver {
+    background: url( ../images/logo_spacecarver.svg );
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 45%;
+}

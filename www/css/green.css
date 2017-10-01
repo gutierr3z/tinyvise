@@ -47,3 +47,13 @@ main > section.oo-transparent-bg {
     /* structure */
     min-height: 10vmin;
 }
+
+
+
+.oo-jumbo {
+    /* height: 50vmin; */
+}
+
+.oo-jumbo article {
+    width: 70%;
+}
