@@ -1,6 +1,8 @@
-/* 
-START : STRIPPING BOOTSTRAP NAV
+/*
+============================================================
+START : OVERWRITE BOOTSTRAP NAVIGATION
 */
+
 nav.navbar {
     margin-bottom: 0px;
     min-height: initial;
@@ -18,7 +20,7 @@ nav > .container-fluid {
 }
 
 nav > .container-fluid .navbar-header {
-    border: 1px solid red;
+    border: 1px solid green;
 }
 
 nav .container-fluid>.navbar-collapse, 
@@ -27,13 +29,11 @@ nav .container>.navbar-collapse,
 nav .container>.navbar-header {
     margin-right: 0px;
     margin-left: 0px;
-    /* border: 1px solid red; */
+    border: 1px solid red;
     left: 0px;
 }
 
-/* 
-mobile menu
-*/
+/* mobile menu : -------------------- */
 
 .navbar-default .navbar-collapse, 
 .navbar-default .navbar-form {
@@ -50,7 +50,10 @@ mobile menu
     padding: 1vmax 3vmax 1vmax 7vmax;
 }
 
-/* start : logo */
+/* / mobile menu : -------------------- */
+
+/* logo : -------------------- */
+
 .navbar>.container .navbar-brand, 
 .navbar>.container-fluid .navbar-brand {
     margin-left: 0px;
@@ -61,11 +64,13 @@ mobile menu
     background: url( '../images/logo.svg' );
     background-size: 60%;
     background-repeat: no-repeat;
-    background-position: 0px 55%;
+    background-position: 3vmax 55%;
 }
-/* end : logo */
 
-/* start : burger */
+/* / logo : -------------------- */
+
+/* burger : -------------------- */
+
 nav .navbar-header .navbar-toggle {
     margin: 0px;
     border-radius: 0px;
@@ -91,7 +96,8 @@ nav .navbar-header .navbar-toggle .icon-bar {
 nav .navbar-header .navbar-toggle .icon-bar+.icon-bar {
     margin-top: 7px;
 }
-/* end : burger */
+
+/* / burger : -------------------- */
 
 .navbar-nav {
     margin: 0px;
@@ -106,6 +112,7 @@ nav .navbar-header .navbar-toggle .icon-bar+.icon-bar {
     padding: 0px;
 }
 
-/* 
-END : STRIPPING BOOTSTRAP NAV
+/*
+END : OVERWRITE BOOTSTRAP NAVIGATION
+============================================================
 */

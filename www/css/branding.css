@@ -1,0 +1,184 @@
+/*
+============================================================
+START : FONTS
+*/
+
+html {
+    /* fonts  */
+    font-size: 16px;
+}
+
+body {
+    /* fonts */
+    line-height: 1.625rem;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Open Sans', sans-serif;
+    color: #4c473c;
+}
+
+h1, h2, h3, h4, h5 {
+    /* fonts */
+    font-family: 'Varela', sans-serif;
+    letter-spacing: -.089rem;
+    color: #000;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.7rem;
+}
+
+h3 {
+    font-size: 1.4rem;
+}
+
+h4 {
+    font-size: 1.1rem;
+}
+
+h5 {
+    font-size: 1rem;
+}
+
+h6 {
+    font-size: 0.8rem;
+}
+
+/*
+END : FONTS 
+============================================================
+============================================================
+START : BRANDING STRUCTURE 
+*/
+
+header {
+    /* appearance */
+    background-color: #fff;
+}
+
+main {
+    /* appearance */
+    background-color: #fff;
+}
+
+main > section {
+    /* appearance */
+    background-image: linear-gradient( to bottom, #f5f5f5 0, #e8e8e5 100% );
+}
+
+footer {
+    /* appearance */
+    background-color: #666666;
+}
+
+footer > section {
+    /* appearance */
+    background-color: #999999;
+}
+
+/*
+END : BRANDING STRUCTURE  
+============================================================
+============================================================
+START : BRANDING BOOTSTRAP NAV 
+*/
+
+/* logo : -------------------- */
+
+.navbar>.container .navbar-brand, 
+.navbar>.container-fluid .navbar-brand {
+    /* structure */
+    height: 8vmax;
+    min-height: 5vmin;
+    width: 150px;
+    /* appearance */
+    background: url( '../images/logo.svg' );
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: 3vmax 55%;
+}
+
+/* / logo : -------------------- */
+
+/* burger : -------------------- */
+
+nav .navbar-header .navbar-toggle {
+    /* structure */
+    height: 8vmax;
+    width: 8vmax;
+    position: absolute;
+    right: 0px;
+    /* appearance */
+    background-color: #f1f1f1;
+}
+
+.navbar-default .navbar-toggle:focus, 
+.navbar-default .navbar-toggle:hover {
+    /* appearance */
+    background-color: #f1f1f1;
+}
+
+nav .navbar-header .navbar-toggle .icon-bar {
+    /* structure */
+    margin: 0px auto;
+    width: 35%;
+    height: 1px;
+    /* appearance */
+    background-color: #5d5a54;
+}
+
+nav .navbar-header .navbar-toggle .icon-bar+.icon-bar {
+    /* structure */
+    margin-top: 4px;
+}
+
+nav .navbar-default .navbar-toggle:focus, 
+nav .navbar-default .navbar-toggle:hover {
+    /* appearance */
+    background-color: #fff;
+}
+
+/* / burger : -------------------- */
+
+/* mobile: header bg color */
+nav.navbar-default {
+    /* appearance */
+    background-color: #fff;
+}
+
+/* mobile: bg color of dropdown nav */
+.navbar-default .navbar-collapse, 
+.navbar-default .navbar-form {
+    /* appearance */
+    background-color: #a9a9a9;
+}
+
+/* mobile: nav LIs */
+.navbar-default .navbar-collapse ul li {
+    /* structure */
+    padding: 1vmax 3vmax 1vmax 7vmax;
+}
+
+/* mobile: nav A tags */
+.navbar-default .navbar-collapse ul li a {
+    /* appearance */
+    color: #fff;
+}
+
+/* turning off all borders */
+nav .container-fluid>.navbar-collapse, 
+nav .container-fluid>.navbar-header, 
+nav .container>.navbar-collapse, 
+nav .container>.navbar-header,
+.navbar-default .navbar-collapse, 
+.navbar-default .navbar-form {
+    border: 0px;
+}
+
+/*
+END : BRANDING BOOTSTRAP NAV 
+============================================================
+*/

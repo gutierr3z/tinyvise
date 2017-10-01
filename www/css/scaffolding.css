@@ -1,54 +1,36 @@
-/* 
+/*
+============================================================
 START : LAYOUT STRUCTURE
 */
 
 html {
     /* structure */
     height: 100%;
-    /* fonts  */
-    font-size: 16px;
 }
 
-body {
-    /* fonts */
-    line-height: 1.625rem;
-    -webkit-font-smoothing: antialiased;
-    font-family: 'Open Sans', sans-serif;
-    color: #4c473c;
-}
-
-/* start: footer */
 body {
     /* structure */
-    display: flex;
-    min-height: 100%;
-    flex-direction: column;
+    display: flex;              /* for footer */
+    min-height: 100%;           /* for footer */
+    flex-direction: column;     /* for footer */
 }
 
 main {
     /* structure */
-    flex: 1;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    flex: 1;                    /* for footer */
 }
-/* end : footer */
 
-/* 
-END : LAYOUT STRUCTURE
-*/
+header > section {
+    /* structure */
+    padding-right: 0px;
+}
 
-
-
-main,
 footer {
     /* structure */
     padding-top: 5vmax;
     padding-bottom: 5vmax;
-}
-
-main > section,
-footer > section {
-    /* structure */
-    /* padding-left: 4vmax; */
-    /* padding-right: 4vmax; */
 }
 
 main > section,
@@ -63,7 +45,7 @@ main > section > section,
 footer > section > section {
     /* structure */
     margin: 0px auto;
-    max-width: 992px; /* 992 breakpoint blue */
+    max-width: 992px;           /* 992 breakpoint blue */
     min-width: 250px;
 }
 
@@ -76,9 +58,7 @@ footer > section > section {
     padding-right: 3vmax;
 }
 
-.navbar>.container .navbar-brand, 
-.navbar>.container-fluid .navbar-brand {
-    background-position: 3vmax 55%;
-}
-
-/* ----------------------------------------------- */
+/*
+END : LAYOUT STRUCTURE
+============================================================
+*/
