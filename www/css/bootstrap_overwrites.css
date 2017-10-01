@@ -27,6 +27,18 @@ nav .container>.navbar-collapse,
 nav .container>.navbar-header {
     margin-right: 0px;
     margin-left: 0px;
+    border: 1px solid red;
+    left: 0px;
+}
+
+/* 
+mobile menu
+*/
+
+.navbar-default .navbar-collapse, 
+.navbar-default .navbar-form {
+    border: 0px;
+    background-color: yellow;
 }
 
 /* start : logo */
