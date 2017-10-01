@@ -4,6 +4,16 @@ START : LAYOUT STRUCTURE
 
 html {
     height: 100%;
+    font-size: 16px;
+}
+
+body {
+    line-height: 1.625rem;
+
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Open Sans', sans-serif;
+
+    color: #4c473c;
 }
 
 /* start: footer */
@@ -26,9 +36,6 @@ END : LAYOUT STRUCTURE
 START : LAYOUT FONTS
 */
 
-body {
-    font-size: calc( 14px + .2vim );
-}
 
 /* 
 END : LAYOUT FONTS
@@ -45,6 +52,8 @@ main > section,
 footer > section {
     padding-left: 2vmax;
     padding-right: 2vmax;
+    /* ---------- */
+    /* line-height: 1.750em; */
 }
 
 main > section,
