@@ -35,6 +35,11 @@
     align-items: stretch;
 }
 
+.oo-gallery section > div a {
+    height: 15vmax;
+    display: block;
+}
+
 .oo-gallery section > div.oo-proj-camphop {
     background: url( ../images/logo_camphop.svg );
     background-repeat: no-repeat;
