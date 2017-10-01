@@ -3,6 +3,17 @@
 BRANDING
 */
 
+h1, h2, h3, h4, h5 {
+    font-family: 'Varela', sans-serif;
+    letter-spacing: -.089rem;
+    color: #000;
+}
+
+h1 {
+    /* border-right: 1vmax solid red;
+    padding-right: 2vmax; */
+}
+
 /* ------------------------------------------- */
 nav.navbar-default {
     /* appearance */
@@ -33,23 +44,27 @@ nav > .container-fluid .navbar-header {
 nav .navbar-header .navbar-toggle {
     /* structure */
     height: 8vmax;
-    width: 30px;
+    width: 8vmax;
+    position: absolute;
+    right: 0px;
+    text-align: center;
     /* appearance */
-    background-color: #fff;
-}
-
-nav .navbar-header .navbar-toggle .icon-bar {
-    /* structure */
-    width: 25px;
-    height: 3px;
-    /* appearance */
-    background-color: #d6d6d6;
+    background-color: #f1f1f1;
 }
 
 .navbar-default .navbar-toggle:focus, 
 .navbar-default .navbar-toggle:hover {
     /* appearance */
-    background-color: #fff;
+    background-color: #f1f1f1;
+}
+
+nav .navbar-header .navbar-toggle .icon-bar {
+    /* structure */
+    margin: 0px auto;
+    width: 35%;
+    height: 1px;
+    /* appearance */
+    background-color: #5d5a54;
 }
 
 nav .navbar-header .navbar-toggle .icon-bar+.icon-bar {
@@ -67,7 +82,7 @@ nav .navbar-default .navbar-toggle:hover {
 
 header {
     /* appearance */
-    background-color: #fff;;
+    background-color: #fff;
 }
 
 main {
@@ -104,7 +119,12 @@ footer > section {
 
 body {
     /* appearance */
-    background-image: linear-gradient( to bottom, #f5f5f5 0, #e8e8e5 100% );
+    /* background-image: linear-gradient( to bottom, #f5f5f5 0, #e8e8e5 100% ); */
+}
+
+header > section {
+    /* structure */
+    padding-right: 0px;
 }
 
 main {

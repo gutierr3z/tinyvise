@@ -48,8 +48,8 @@ header > section,
 main > section,
 footer > section {
     /* structure */
-    padding-left: 2vmax;
-    padding-right: 2vmax;
+    padding-left: 4vmax;
+    padding-right: 4vmax;
 }
 
 main > section,
@@ -65,7 +65,7 @@ footer > section > section {
     /* structure */
     margin: 0px auto;
     max-width: 1000px;
-    min-width: 300px;
+    min-width: 250px;
 }
 
 main > section > section,
