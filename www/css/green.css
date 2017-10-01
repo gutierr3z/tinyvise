@@ -23,6 +23,25 @@ nav .navbar-header .navbar-toggle {
 
 
 
+.navbar-default .navbar-collapse, 
+.navbar-default .navbar-form {
+    background-color: #fff;
+    
+}
+
+.navbar-default .navbar-collapse ul {
+    padding: 0px;
+    height: 8vmin;
+}
+
+.navbar-default .navbar-collapse ul li {
+    padding: 1vmin 3vmin 1vmin 3vmin;
+}
+
+.navbar-default .navbar-collapse ul li a {
+    color: #000;
+}
+
 
 main > section.oo-transparent-bg {
     /* structure */

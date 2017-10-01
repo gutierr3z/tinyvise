@@ -84,10 +84,15 @@ nav .navbar-default .navbar-toggle:hover {
 }
 
 
+.navbar-default .navbar-collapse ul li {
+    padding: 1vmax 3vmax 1vmax 7vmax;
+}
 
 .navbar-default .navbar-collapse ul li a {
     color: #fff;
 }
+
+
 
 
 /* ------------------------------------------- */
