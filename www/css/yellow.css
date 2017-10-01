@@ -73,6 +73,23 @@ nav .navbar-default .navbar-toggle:hover {
     background-color: #fff;
 }
 /* end : burger */
+
+
+.navbar-default .navbar-collapse, 
+.navbar-default .navbar-form {
+
+    border: 0px;
+    background-color: #372700;
+    
+}
+
+
+
+.navbar-default .navbar-collapse ul li a {
+    color: #fff;
+}
+
+
 /* ------------------------------------------- */
 
 header {
