@@ -57,3 +57,7 @@ main > section.oo-transparent-bg {
 .oo-jumbo article {
     width: 70%;
 }
+
+.oo-gallery section > div {
+    height: 20vmin;
+}
